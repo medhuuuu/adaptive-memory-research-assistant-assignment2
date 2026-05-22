@@ -1,5 +1,8 @@
 # Adaptive Memory Research Assistant
 
+### App link: https://adaptive-memory-research-assistant-assignment2-hvwc4yauk3ipigd.streamlit.app/
+### Video link: https://youtu.be/7cbRBa0Zrgs
+
 ## Overview
 An AI-powered assistant that combines:
 - conversational memory
