@@ -17,6 +17,7 @@ The system can:
 - and combine memory retrieval with document retrieval.
 
 The assistant behaves similarly to modern AI systems such as ChatGPT or Claude by integrating conversational AI and document-aware reasoning into a single interface.
+
 ---
 
 ## Features
