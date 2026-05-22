@@ -1,11 +1,9 @@
 from openai import OpenAI
-from dotenv import load_dotenv
 import os
-
-load_dotenv()
+import streamlit as st
 
 client = OpenAI(
-    api_key=os.getenv("BERGET_API_KEY"),
+    api_key=st.secrets["BERGET_API_KEY"],
     base_url="https://api.berget.ai/v1"
 )
 
