@@ -28,7 +28,7 @@ def retrieve_chat_memory(query_embedding):
 
     results = chat_collection.query(
         query_embeddings=[query_embedding],
-        n_results=3
+        n_results=2
     )
 
     return results["documents"][0]
@@ -51,7 +51,7 @@ def retrieve_pdf_chunks(query_embedding):
 
     results = pdf_collection.query(
         query_embeddings=[query_embedding],
-        n_results=3
+        n_results=2
     )
 
     return results["documents"][0]
