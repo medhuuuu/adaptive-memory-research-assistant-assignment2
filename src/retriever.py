@@ -1,4 +1,4 @@
-def split_text(text, chunk_size=1000):
+def split_text(text, chunk_size=1500):
 
     chunks = []
 
