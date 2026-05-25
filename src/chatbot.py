@@ -20,12 +20,11 @@ def get_ai_response(prompt):
                 }
             ],
 
-            temperature=0.7,
-            max_tokens=500
+            max_tokens=300
         )
 
         return response.choices[0].message.content
 
     except Exception as e:
 
-        return f"Error generating response: {str(e)}"
+        return f"API Error: {str(e)}"
